@@ -50,7 +50,7 @@ const UserForm = () => {
         imageUrls: uploadedImages 
       };
 
-      const response = await axios.post('http://localhost:5000/api/upload', data, {
+      const response = await axios.post('https://threew-backend-iuep.onrender.com/api/upload', data, {
         headers: {
           'Content-Type': 'application/json',
         },

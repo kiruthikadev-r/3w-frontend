@@ -14,7 +14,7 @@ const Login = ({ setAuth }) => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/api/admin/login', {
+      const response = await axios.post('https://threew-backend-iuep.onrender.com/api/admin/login', {
         email,
         password,
       });

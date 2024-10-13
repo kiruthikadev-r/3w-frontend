@@ -1,0 +1,60 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .dashboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .dashboard-table-head {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .dashboard-table-heading {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .dashboard-table-body {
+    background-color: white;
+  }
+  
+  .dashboard-table-row {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .dashboard-table-row:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dashboard-table-data {
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .dashboard-image-link {
+    margin-right: 5px;
+  }
+  
+  .dashboard-image-thumbnail {
+    border-radius: 4px;
+  }
+  
+  .dashboard-no-submissions {
+    color: #888;
+    font-size: 18px;
+  }
+  
